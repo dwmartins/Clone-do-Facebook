@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
 }
 .home {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     height: 600px;
 }
@@ -110,4 +110,89 @@ form a:hover {
 .form p {
     font-size: 15px;
     text-align: center;
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .conteudos {
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .titulo {
+        width: 380px; 
+        margin-bottom: 30px;
+    }
+
+    .titulo p {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .conteudos {
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .titulo {
+        width: 380px;
+        margin-bottom: 30px;
+    }
+
+    .titulo p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .conteudos {
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .titulo {
+        width: 380px; 
+        margin-bottom: 30px;
+    }
+
+    .titulo p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .conteudos {
+        margin-top: 50px;
+
+    }
+    
+    .titulo {
+        width: 420px; 
+        margin-bottom: 30px;
+    }
+
+    .titulo p {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .conteudos {
+        margin-top: 70px;
+    }
+    
+    .titulo { 
+        margin-bottom: 30px;
+    }
+
+    .titulo p {
+        text-align: left;
+    }
 }
